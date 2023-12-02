@@ -16,6 +16,9 @@
 		2EF7A9632B18E9D2009A10DA /* SwiftUISampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7A9622B18E9D2009A10DA /* SwiftUISampleUITestsLaunchTests.swift */; };
 		2EF7A9702B1A1A5C009A10DA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7A96F2B1A1A5C009A10DA /* CircleImage.swift */; };
 		2EF7A9722B1A1BB6009A10DA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7A9712B1A1BB6009A10DA /* MapView.swift */; };
+		2EF7A9752B1A1E62009A10DA /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7A9742B1A1E62009A10DA /* Landmark.swift */; };
+		2EF7A9772B1A1F18009A10DA /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7A9762B1A1F18009A10DA /* landmarkData.json */; };
+		2EF7A9792B1AF3BE009A10DA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7A9782B1AF3BE009A10DA /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		2EF7A9622B18E9D2009A10DA /* SwiftUISampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2EF7A96F2B1A1A5C009A10DA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2EF7A9712B1A1BB6009A10DA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2EF7A9742B1A1E62009A10DA /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		2EF7A9762B1A1F18009A10DA /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		2EF7A9782B1AF3BE009A10DA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				2EF7A9452B18E9D1009A10DA /* SwiftUISampleApp.swift */,
-				2EF7A9472B18E9D1009A10DA /* ContentView.swift */,
+				2EF7A97A2B1AF4EA009A10DA /* Views */,
+				2EF7A9762B1A1F18009A10DA /* landmarkData.json */,
+				2EF7A9732B1A1E57009A10DA /* Models */,
 				2EF7A9492B18E9D2009A10DA /* Assets.xcassets */,
 				2EF7A94B2B18E9D2009A10DA /* Preview Content */,
-				2EF7A96F2B1A1A5C009A10DA /* CircleImage.swift */,
-				2EF7A9712B1A1BB6009A10DA /* MapView.swift */,
 			);
 			path = SwiftUISample;
 			sourceTree = "<group>";
@@ -131,6 +137,25 @@
 				2EF7A9622B18E9D2009A10DA /* SwiftUISampleUITestsLaunchTests.swift */,
 			);
 			path = SwiftUISampleUITests;
+			sourceTree = "<group>";
+		};
+		2EF7A9732B1A1E57009A10DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7A9742B1A1E62009A10DA /* Landmark.swift */,
+				2EF7A9782B1AF3BE009A10DA /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EF7A97A2B1AF4EA009A10DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7A9472B18E9D1009A10DA /* ContentView.swift */,
+				2EF7A96F2B1A1A5C009A10DA /* CircleImage.swift */,
+				2EF7A9712B1A1BB6009A10DA /* MapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +264,7 @@
 			files = (
 				2EF7A94D2B18E9D2009A10DA /* Preview Assets.xcassets in Resources */,
 				2EF7A94A2B18E9D2009A10DA /* Assets.xcassets in Resources */,
+				2EF7A9772B1A1F18009A10DA /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +293,8 @@
 				2EF7A9722B1A1BB6009A10DA /* MapView.swift in Sources */,
 				2EF7A9462B18E9D1009A10DA /* SwiftUISampleApp.swift in Sources */,
 				2EF7A9702B1A1A5C009A10DA /* CircleImage.swift in Sources */,
+				2EF7A9752B1A1E62009A10DA /* Landmark.swift in Sources */,
+				2EF7A9792B1AF3BE009A10DA /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
